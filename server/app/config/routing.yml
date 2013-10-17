@@ -1,0 +1,7 @@
+
+megogo_survey:
+    resource: "@MegogoSurveyBundle/Controller/"
+    type:     annotation
+    prefix: /
+
+

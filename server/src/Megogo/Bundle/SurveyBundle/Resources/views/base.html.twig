@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>megogo.survey</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('bundles/megogosurvey/css/base.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/megogosurvey/css/jquery.countdown.css') }}" rel="stylesheet">
+    {#<script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>#}
+    <script type="text/javascript" src="{{ asset('js/jquery_jquery-1.9.1_1.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/megogosurvey/js/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/megogosurvey/js/jquery.countdown.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/megogosurvey/js/main.js') }}"></script>
+
+
+</head>
+
+<body>
+
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <a class="brand" href="#">Title</a>
+        <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+
+    <div id="counter">
+
+    </div>
+    {% block body %}{% endblock %}
+
+</div><!-- /.container -->
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span2">
+            <!--Sidebar content-->
+        </div>
+        <div class="span10">
+            <!--Body content-->
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+</body>
+</html>
+
